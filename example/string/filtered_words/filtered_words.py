@@ -3,7 +3,7 @@
 
 import sys,os,time
 
-filename="/Users/bayao/Desktop/old_machine/bayao/2019/python/base/example/filtered_words/filtered_words.txt"
+filename="./base/example/string/filtered_words/filtered_words.txt"
 fo=open(filename, 'r')
 #print ("文件名: ", fo.name)
 #print ("是否已关闭 : ", fo.closed)

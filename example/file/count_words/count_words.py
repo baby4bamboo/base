@@ -2,7 +2,7 @@
 
 import sys,os,time,re
 
-filename="./base/example/count_words/count_words.txt"
+filename="./base/example/file/count_words/count_words.txt"
 fo=open(filename, 'r')
 my_str = fo.read()
 my_str = re.sub("\n|,", " ", my_str)
