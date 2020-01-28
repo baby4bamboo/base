@@ -3,8 +3,6 @@
 def product(input_str):
    
     number_length=len(input_str)
-
-    my_number=int(input_str)
     my_list=[]
 
     for i in range(1,number_length):

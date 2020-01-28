@@ -3,9 +3,8 @@
 
 #找出一年中哪些日子是“黑色星期五”
 #一般，将一个日期恰好是13号的星期五称为“黑色星期五”。
-
-import time;  # 引入time模块
-import datetime;
+import time
+import datetime
 
 my_year=int(input("Please input the year:"))
 
