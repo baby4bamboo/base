@@ -10,7 +10,7 @@ my_dic = {
 }
 
 df = pd.DataFrame(my_dic)
-out_file="./base/example/pandas/test2.xlsx"
+out_file="./base/example/excel/test2.xlsx"
 df.to_excel(out_file,sheet_name='A')
 
 df.columns = ['a','b','c']
